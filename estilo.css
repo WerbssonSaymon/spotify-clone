@@ -10,6 +10,7 @@ body {
                 linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 /* barra de navegação */
@@ -105,6 +106,21 @@ nav.navbar-transparente {
     padding: 10px 0px 10px 0px;
 }
 
+/* seção recursos */
+
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
 /* tipografia */
 
 h1 {
@@ -126,6 +142,10 @@ h3 {
     letter-spacing: -0.04em;
 }
 
-#servicos h2,h3 {
+#servicos h2, #servicos h3 {
     color: #7c25f8;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
 }
