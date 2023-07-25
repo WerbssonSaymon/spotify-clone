@@ -4,10 +4,37 @@
 }
 /* tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .col-md-6 {
+        margin-bottom: 15px;
+    }
+    .albuns {
+        margin-left: 15px;
+    }
 }
-
 /* smartphone */
 @media screen and (max-width: 767px) {
-
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .btn-roxo {
+        margin-bottom: 15px;
+    }
+    .col-md-6 {
+        margin-bottom: 15px;
+    }
 }
